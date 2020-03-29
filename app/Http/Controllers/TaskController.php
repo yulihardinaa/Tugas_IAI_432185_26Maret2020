@@ -9,7 +9,7 @@ use App\User;
 
 class TaskController extends Controller
 {
-    public function bilpersegi(){
+    public function persegi(){
         $data['bilangan persegi'] = [];
         for($n = 1; $n< 41; $n++){
         $hasil = ($n * $n) ;
