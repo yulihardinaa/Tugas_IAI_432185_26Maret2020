@@ -11,7 +11,7 @@ class TaskController extends Controller
 {
     public function bilpersegi(){
         $data['bilangan persegi'] = [];
-        for($n = 1; $n< 51; $n++){
+        for($n = 1; $n< 21; $n++){
         $hasil = ($n * $n) ;
         $data['bilangan persegi'][] = $hasil ;
 }      
